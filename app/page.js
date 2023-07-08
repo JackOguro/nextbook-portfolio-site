@@ -5,6 +5,11 @@ import Image from 'next/image'
 import heroPic from "../public/images/index-hero.jpg"
 import profilePic from "../public/images/profile.jpg" // importを使用する場合、height/widthを指定する必要がない
 
+export const metadata = {
+  title: "Abe Hiroki",
+  description: "Abe Hirokiのポートフォリオ"
+}
+
 const Index = () => {
   return (
     <>
