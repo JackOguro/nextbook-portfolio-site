@@ -1,3 +1,4 @@
+// Reactコンポーネントimport時のパスを相対パスから絶対パスへ変換する
 {
   "compilerOptions": {
     "paths": {
